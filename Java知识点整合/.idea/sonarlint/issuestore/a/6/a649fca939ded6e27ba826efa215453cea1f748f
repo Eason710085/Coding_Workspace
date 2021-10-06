@@ -1,0 +1,14 @@
+
+M
+java:S1481#"+Remove this unused "arrayB" local variable.(Àå´×üÿÿÿÿ8÷ÌÔ´À.
+H
+java:S1481&"+Remove this unused "arrayC" local variable.(Ë£¼Š8÷ÌÔ´À.
+\
+java:S1854#":Remove this useless assignment to local variable "arrayB".(Àå´×üÿÿÿÿ8÷ÌÔ´À.
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Æà®±
+W
+java:S1854&":Remove this useless assignment to local variable "arrayC".(Ë£¼Š8÷ÌÔ´À.
+\
+java:S1854 ":Remove this useless assignment to local variable "arrayA".(ŸãïÎúÿÿÿÿ8’ß‹³À.
+M
+java:S1481 "+Remove this unused "arrayA" local variable.(ŸãïÎúÿÿÿÿ8’ß‹³À.

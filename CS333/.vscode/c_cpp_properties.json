@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/Library/Developer/CommandLineTools/usr/include/c++/v1",
+                "/usr/local/include",
+                "/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include",
+                "/Library/Developer/CommandLineTools/usr/include",
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"
+
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c99",
+            "cppStandard": "c++98",
+            "intelliSenseMode": "macos-clang-x64",
+            "compilerArgs": [
+                "/usr/local/include",
+                " /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1",
+                " /Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include",
+                " /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include",
+                " /Library/Developer/CommandLineTools/usr/include",
+                " /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)"
+            ]
+        }
+    ],
+    "version": 4
+}

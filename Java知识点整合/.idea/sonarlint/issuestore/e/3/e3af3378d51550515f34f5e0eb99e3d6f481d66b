@@ -1,0 +1,8 @@
+
+[
+java:S1854"9Remove this useless assignment to local variable "listA".(¾Äòúÿÿÿÿÿ8Ù€£ŸÂ.
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(ï½§¬ùÿÿÿÿ8ı±ŸÂ.
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(ı»ËŸ8ô­´ŸÂ.
+]	java:S125"<This block of commented-out lines of code should be removed.(÷÷•‚ùÿÿÿÿ8—†¦ŸÂ.
+L
+java:S1481"*Remove this unused "listA" local variable.(¾Äòúÿÿÿÿÿ8Ù€£ŸÂ.

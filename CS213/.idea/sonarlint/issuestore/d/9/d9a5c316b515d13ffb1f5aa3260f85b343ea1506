@@ -1,0 +1,87 @@
+
+\
+java:S2095"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(Õ¿Å
+a
+java:S1192"HDefine a constant instead of duplicating this literal "State: " 3 times.(¦ÅŸüÿÿÿÿ
+l
+java:S1192"SDefine a constant instead of duplicating this literal "Telephone number: " 3 times.(­òÙ³ùÿÿÿÿ
+e
+java:S1192"QDefine a constant instead of duplicating this literal "Street Address: " 3 times.(ÙáæŠ
+e	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ä€ÌÉùÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(á‰ŒÊ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(„¨õúÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(ÚÃü›
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(Ñ”õ”ûÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(ƒÒ‘øÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(ÙáæŠ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(¦ÅŸüÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(¦Ì›„øÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(¾¡‘º
+L	java:S106"9Replace this use of System.out or System.err by a logger.(šìĞ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(Íşßƒùÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(÷İ‡•
+I
+java:S1751"5Remove this "break" statement or make it conditional.(›ûä·
+K	java:S106"9Replace this use of System.out or System.err by a logger.(„¹é
+L	java:S106"9Replace this use of System.out or System.err by a logger.(™ à
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(ü©âûÿÿÿÿ
+:	java:S131""Add a default case to this switch.(ÕÄªâşÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(†ÓÑÓ
+K	java:S106"9Replace this use of System.out or System.err by a logger.(Ã®E
+K	java:S106"9Replace this use of System.out or System.err by a logger.(şÀş{
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(øÆ×Âùÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(…ü”Á
+K	java:S106"9Replace this use of System.out or System.err by a logger.(‘š
+L	java:S106"9Replace this use of System.out or System.err by a logger.(Ã‹Æ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(†·Œ¹üÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(û™Ãá
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(êÊ«¨ıÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(’Ã£Šúÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(å¡¢‹
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(û˜ÉÍüÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿï÷Ïùÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(Ç³÷îûÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(­òÙ³ùÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(õ›È—
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(ıä—æÿÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(¢Ø¬Ÿùÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(­òÙ³ùÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(©Òâò
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(¾Ì Ïúÿÿÿÿ
+k
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(¼Í÷øÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(’Ñ¯ÿÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(ü©âûÿÿÿÿ
+5	java:S131""Add a default case to this switch.(†½š½
+B
+java:S1125")Remove the literal "false" boolean value.(‹¥Çëûÿÿÿÿ
+o
+java:S2159"VRemove this call to "equals"; comparisons between unrelated types always return false.(‹¥Çëûÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(äãŞÌ
+B
+java:S1125")Remove the literal "false" boolean value.(‹¥Çëûÿÿÿÿ
+o
+java:S2159"VRemove this call to "equals"; comparisons between unrelated types always return false.(‹¥Çëûÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(ÄüÔŞúÿÿÿÿ
+B
+java:S1125")Remove the literal "false" boolean value.(‹¥Çëûÿÿÿÿ
+o
+java:S2159"VRemove this call to "equals"; comparisons between unrelated types always return false.(‹¥Çëûÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(àçÙ•
+B
+java:S1125")Remove the literal "false" boolean value.(‹¥Çëûÿÿÿÿ
+o
+java:S2159"VRemove this call to "equals"; comparisons between unrelated types always return false.(‹¥Çëûÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(¡°¦üÿÿÿÿ
+B
+java:S1125")Remove the literal "false" boolean value.(‹¥Çëûÿÿÿÿ
+o
+java:S2159"VRemove this call to "equals"; comparisons between unrelated types always return false.(‹¥Çëûÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(¤÷Ñİúÿÿÿÿ
+B
+java:S1125")Remove the literal "false" boolean value.(‹¥Çëûÿÿÿÿ
+o
+java:S2159"VRemove this call to "equals"; comparisons between unrelated types always return false.(‹¥Çëûÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(ÚÔØå
+T	java:S125"<This block of commented-out lines of code should be removed.(î‰ğşÿÿÿÿ

@@ -1,0 +1,17 @@
+
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ÇÑ×
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(œ¡â—üÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(–ğ¬ñùÿÿÿÿ
+S	java:S106
+"9Replace this use of System.out or System.err by a logger.(ÈÏâ²ÿÿÿÿÿ
+N	java:S1067"9Replace this use of System.out or System.err by a logger.(¯Óôï
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(Š³¼›úÿÿÿÿ
+M	java:S106:"9Replace this use of System.out or System.err by a logger.(ƒÚáB
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ
+N	java:S106."9Replace this use of System.out or System.err by a logger.(ŸÏÍè
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(§ÏÃÿÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ó¦Í›
+t
+java:S2293%"YReplace the type specification in this constructor call with the diamond operator ("<>").(çâîÀıÿÿÿÿ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(Â¸¨¿ÿÿÿÿÿ

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c3f091dc-6119-4860-88ab-d7eb176ea617" name="Default Changelist" comment="Demo2">
+      <change afterPath="$PROJECT_DIR$/../../CS333/Assignemnt_1/CS 311.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CS333/Assignment_2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CS333/Assignment_2/.idea/Assignment_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CS333/Assignment_2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CS333/Assignment_2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CS333/Assignment_2/Demo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CS 311/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CS 311/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CS 311/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CS 311/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CS 311/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CS 311/CS 311.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CS 311/out/production/CS 311/Expressions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CS 311/out/production/CS 311/driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CS 311/out/production/CS 311/expressionTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CS 311/out/production/CS 311/node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CS 311/src/Expressions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CS 311/src/driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CS 311/src/expressionTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CS 311/src/node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/storage/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/storage/FileManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/storage/SlottedPage$IndexOutOfBoundsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/storage/SlottedPage$IndexOutOfBoundsException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/storage/SlottedPage$OverflowException.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/storage/SlottedPage$OverflowException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/storage/SlottedPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/storage/SlottedPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/storage/SlottedPageFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/storage/SlottedPageFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/storage/StorageManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/storage/StorageManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/storage/test/FileManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/storage/test/FileManagerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/storage/test/SlottedPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/storage/test/SlottedPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/storage/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/storage/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/storage/SlottedPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/storage/SlottedPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/storage/test/SlottedPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/storage/test/SlottedPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage_manager_solutions.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1y0eUTHyb1ozjgrRCZijj5ZTbF6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="JUnit.SlottedPageTest.add">
+    <configuration name="FileManagerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="storage.test.FileManagerTest" />
+      <module name="storage_manager_solutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="storage.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlottedPageTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="storage.test.SlottedPageTest" />
+      <module name="storage_manager_solutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="storage.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileManagerTest.put" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="storage_manager_solutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="storage.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="storage.test" />
+      <option name="MAIN_CLASS_NAME" value="storage.test.FileManagerTest" />
+      <option name="METHOD_NAME" value="put" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlottedPageTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="storage_manager_solutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="storage.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="storage.test" />
+      <option name="MAIN_CLASS_NAME" value="storage.test.SlottedPageTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlottedPageTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="storage_manager_solutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="storage.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="storage.test" />
+      <option name="MAIN_CLASS_NAME" value="storage.test.SlottedPageTest" />
+      <option name="METHOD_NAME" value="get" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SlottedPageTest.add" />
+        <item itemvalue="Application.SlottedPageTest" />
+        <item itemvalue="JUnit.SlottedPageTest.get" />
+        <item itemvalue="Application.FileManagerTest" />
+        <item itemvalue="JUnit.FileManagerTest.put" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3f091dc-6119-4860-88ab-d7eb176ea617" name="Default Changelist" comment="" />
+      <created>1631392950129</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631392950129</updated>
+      <workItem from="1631392951877" duration="2511000" />
+      <workItem from="1631642422045" duration="3939000" />
+      <workItem from="1631812587145" duration="1080000" />
+      <workItem from="1631813967488" duration="85000" />
+      <workItem from="1631814091775" duration="17000" />
+      <workItem from="1631825093604" duration="2850000" />
+      <workItem from="1631902328115" duration="221000" />
+      <workItem from="1632081012156" duration="5491000" />
+      <workItem from="1632248117809" duration="3055000" />
+      <workItem from="1632345450804" duration="354000" />
+      <workItem from="1632353767440" duration="22976000" />
+      <workItem from="1632497567995" duration="8634000" />
+      <workItem from="1632511986204" duration="40000" />
+      <workItem from="1632521421149" duration="997000" />
+      <workItem from="1632523280458" duration="2678000" />
+      <workItem from="1632530098469" duration="3939000" />
+      <workItem from="1633102147401" duration="113000" />
+    </task>
+    <task id="LOCAL-00001" summary="change">
+      <created>1632110300161</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632110300161</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Demo1">
+      <created>1632530129191</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1632530129191</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Demo2">
+      <created>1632530232469</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1632530232469</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Demo2">
+      <created>1632530308498</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1632530308498</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change" />
+    <MESSAGE value="Demo1" />
+    <MESSAGE value="Demo2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Demo2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="435" y="207" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1632504367381">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="435" y="207" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1632504367381" />
+    <state width="1240" height="183" key="GridCell.Tab.0.bottom" timestamp="1632507045540">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1240" height="183" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1632507045540" />
+    <state width="1240" height="183" key="GridCell.Tab.0.center" timestamp="1632507045538">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1240" height="183" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1632507045538" />
+    <state width="1240" height="183" key="GridCell.Tab.0.left" timestamp="1632507045537">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1240" height="183" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1632507045537" />
+    <state width="1240" height="183" key="GridCell.Tab.0.right" timestamp="1632507045539">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1240" height="183" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1632507045539" />
+    <state x="114" y="0" width="1024" height="728" key="SettingsEditor" timestamp="1631814100013">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="114" y="0" width="1024" height="728" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1631814100013" />
+    <state x="240" y="137" key="Vcs.Push.Dialog.v2" timestamp="1632530314135">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="137" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1632530314135" />
+    <state x="378" y="154" key="extract.method.dialog" timestamp="1631638125078">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="378" y="154" key="extract.method.dialog/0.0.1280.800@0.0.1280.800" timestamp="1631638125078" />
+    <state x="504" y="285" width="592" height="275" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1631642698140">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="504" y="285" width="592" height="275" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1280.800@0.0.1280.800" timestamp="1631642698140" />
+    <state x="304" y="184" key="run.anything.popup" timestamp="1632247229463">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="304" y="184" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1632247229463" />
+  </component>
+</project>

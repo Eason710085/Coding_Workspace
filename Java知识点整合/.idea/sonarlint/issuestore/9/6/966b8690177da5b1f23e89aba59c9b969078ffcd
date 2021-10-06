@@ -1,0 +1,21 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(©Äïå8”¸´ÊÂ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ƒ®ß­ıÿÿÿÿ8¥Í·ÊÂ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ƒ®ß­ıÿÿÿÿ8Æ—¿ÊÂ.
+A
+java:S2185"$Remove this silly call to "Math.abs"(œÅÔë8…‰­ÊÂ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(œÅÔë8ÚÒ¬ÊÂ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÿ÷ë8õÔ­ÊÂ.
+A
+java:S2185"$Remove this silly call to "Math.abs"(ÿ÷ë8Ÿ½®ÊÂ.
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(Ã»Äşÿÿÿÿ8çÙ¾ÊÂ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(… ì²8›ºÊÂ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(õÕ…Ÿ8ËÁ³ÊÂ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ùêªµıÿÿÿÿ8ÁÚºÊÂ.
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(şª£Ò8çÙ¾ÊÂ.
+o
+java:S1192"MDefine a constant instead of duplicating this literal "============" 3 times.(ƒ®ß­ıÿÿÿÿ8Æ—¿ÊÂ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ƒ®ß­ıÿÿÿÿ8ñÿ¯ÊÂ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ó°8Ÿ½®ÊÂ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ïì·Àÿÿÿÿÿ8•º¶ÊÂ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(úúÁ¤8×´²ÊÂ.

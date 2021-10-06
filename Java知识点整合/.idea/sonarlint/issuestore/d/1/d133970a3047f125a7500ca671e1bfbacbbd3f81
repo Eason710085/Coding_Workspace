@@ -1,0 +1,5 @@
+
+~
+java:S4165"aRemove this useless assignment; "age" already holds the assigned value along all execution paths.(êÔ‘“8Ñ‹øÖÁ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÖÀã½øÿÿÿÿ8İÕøÖÁ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ôë²ê8ÍµÅÖÁ.

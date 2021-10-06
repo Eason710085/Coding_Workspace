@@ -1,0 +1,8 @@
+
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(–µé›ýÿÿÿÿ8”™¯ Â.
+X	java:S125"<This block of commented-out lines of code should be removed.(†Ù×8”™¯ Â.
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(Å¢Å˜8ðö° Â.
+T	java:S106"9Replace this use of System.out or System.err by a logger.(Ô´”U8¾ô§ Â.
+‘
+java:S1319"oThe type of the "list" object should be an interface such as "List" rather than the implementation "ArrayList".(Ù®ŒÃùÿÿÿÿ8¹„® Â.
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(ä–•ÿúÿÿÿÿ8ÿÂ´ Â.

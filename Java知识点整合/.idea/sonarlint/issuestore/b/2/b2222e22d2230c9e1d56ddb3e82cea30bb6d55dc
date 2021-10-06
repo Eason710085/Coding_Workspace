@@ -1,0 +1,21 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ใลส๛ÿÿÿÿ8ฟ€ตาม.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ัิวฦÿÿÿÿÿ8ฟ€ตาม.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ü๊ี8ฟ€ตาม.
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(ัิวฦÿÿÿÿÿ8ฟ€ตาม.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(แโฏüÿÿÿÿ8ฟ€ตาม.
+U	java:S106""9Replace this use of System.out or System.err by a logger.(’ช8ฟ€ตาม.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ัิวฦÿÿÿÿÿ8ฟ€ตาม.
+j
+java:S1192"HDefine a constant instead of duplicating this literal "=======" 4 times.(ัิวฦÿÿÿÿÿ8ฟ€ตาม.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ขหÞบ8ฟ€ตาม.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(๔ฤ๗Ý8ฟ€ตาม.
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(๘ ฝถ๘ÿÿÿÿ8ฟ€ตาม.
+Z	java:S106,"9Replace this use of System.out or System.err by a logger.(๘ ฝถ๘ÿÿÿÿ8ฟ€ตาม.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ๆญ่บ๙ÿÿÿÿ8ฟ€ตาม.
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(ัิวฦÿÿÿÿÿ8ฟ€ตาม.
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(ผุญüÿÿÿÿ8ฟ€ตาม.
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(ึ”ฐÿÿÿÿÿ8ฟ€ตาม.
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(ตงไ8ฟ€ตาม.
+q
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(๕ช๛8ฝึม.

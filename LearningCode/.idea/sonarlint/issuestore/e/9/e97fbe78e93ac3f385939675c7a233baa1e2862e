@@ -1,0 +1,6 @@
+
+[
+java:S1226"@Introduce a new variable instead of reusing the parameter "str".(ê¾›ùûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(»ðàÄ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ä¹©ûýÿÿÿÿ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(¯ß¹´

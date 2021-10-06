@@ -1,0 +1,12 @@
+
+[
+java:S4973"9Use the "equals" method if value comparison was intended.(°œó¼øÿÿÿÿ8ŸÇÛ¡Â.
+V
+java:S4973"9Use the "equals" method if value comparison was intended.(ÔÅÖŠ8‡İ¡Â.
+h	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¡ì’)8´½æ¡Â.
+V
+java:S4973"9Use the "equals" method if value comparison was intended.(­şığ8‡İ¡Â.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÔÅÖŠ8‡İ¡Â.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(°œó¼øÿÿÿÿ8ŸÇÛ¡Â.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(­şığ8‡İ¡Â.

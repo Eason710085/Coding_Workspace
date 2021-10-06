@@ -1,0 +1,15 @@
+
+W
+java:S1191"5Use classes from the Java API instead of Sun classes.(²­·Æûÿÿÿÿ8È’Ø®À.
+W
+java:S1118":Add a private constructor to hide the implicit public one.(Š§Ë¾8È’Ø®À.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Š›Ïû8ñèÌ®À.
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Š§Ë¾
+]	java:S125%"<This block of commented-out lines of code should be removed.(Ñ“ëäúÿÿÿÿ8æ‚Þ®À.
+j
+java:S1128"MRemove this unused import 'com.sun.org.apache.bcel.internal.generic.DRETURN'.(ˆÄÎ¸8È’Ø®À.
+o
+java:S1128"MRemove this unused import 'com.sun.org.apache.bcel.internal.generic.ARETURN'.(²­·Æûÿÿÿÿ8È’Ø®À.
+=
+java:S3626"Remove this redundant jump.(šÎâ‘úÿÿÿÿ8†·È®À.
+T	java:S106"9Replace this use of System.out or System.err by a logger.(å„ÛA8ñèÌ®À.

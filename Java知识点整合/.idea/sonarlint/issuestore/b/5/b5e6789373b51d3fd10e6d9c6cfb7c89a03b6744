@@ -1,0 +1,16 @@
+
+]	java:S125""<This block of commented-out lines of code should be removed.(¬§™…øÿÿÿÿ8Ğ¼¢‡Â.
+Z
+java:S1854"8Remove this useless assignment to local variable "scan".(şªâ™ùÿÿÿÿ8Æ’¥‡Â.
+X	java:S125"<This block of commented-out lines of code should be removed.(ÿ¦—Ç8Ïä£‡Â.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(õ»†Ñ8íãØ‚Â.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ïê¢ÿ8Ó‡Â.
+Q
+java:S1128"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ8±ø×‚Â.
+]	java:S125"<This block of commented-out lines of code should be removed.(¬§™…øÿÿÿÿ8Ì¸›‡Â.
+]	java:S125"<This block of commented-out lines of code should be removed.(¬§™…øÿÿÿÿ8Å­Ö‚Â.
+K
+java:S1481")Remove this unused "scan" local variable.(şªâ™ùÿÿÿÿ8Æ’¥‡Â.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(õ»†Ñ8Æ’¥‡Â.
+M
+java:S1144"0Remove this unused private "methodParam" method.(–üõ«8Ïä£‡Â.

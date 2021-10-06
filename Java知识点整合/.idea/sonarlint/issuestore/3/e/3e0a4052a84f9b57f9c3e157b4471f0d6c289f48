@@ -1,0 +1,7 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Úú°Êûÿÿÿÿ8äáÿÜÁ.
+Z
+java:S1854"8Remove this useless assignment to local variable "stu1".(ÖÕÃúüÿÿÿÿ8ì‰ßÜÁ.
+K
+java:S1481")Remove this unused "stu1" local variable.(ÖÕÃúüÿÿÿÿ8ÌğüÜÁ.
+U	java:S106	"9Replace this use of System.out or System.err by a logger.(ãœˆ8Çê‰İÁ.

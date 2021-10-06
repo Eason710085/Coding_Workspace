@@ -1,0 +1,14 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÑÔÇÆÿÿÿÿÿ8ËÊûËÂ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‡‘óÿÿÿÿÿ8°üËÂ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(æù÷Ó8Ó…èËÂ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÑÔÇÆÿÿÿÿÿ8àù‚ÌÂ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(´æ¿‚ûÿÿÿÿ8íºìËÂ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÑÔÇÆÿÿÿÿÿ8É‘ûËÂ.
+j
+java:S1192"HDefine a constant instead of duplicating this literal "=======" 3 times.(ÑÔÇÆÿÿÿÿÿ8àù‚ÌÂ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÌÕÔï8íºìËÂ.
+v
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(ò¤Æ­ıÿÿÿÿ8ÍÊ•ÌÂ.
+q
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(’“†»8ÍÊ•ÌÂ.

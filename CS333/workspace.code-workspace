@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stdio.h": "c",
+			"stdlib.h": "c",
+			"lab7t1": "c",
+			"fcntl.h": "c",
+			"dirent.h": "c",
+			"wait.h": "c",
+			"unistd.h": "c",
+			"string.h": "c",
+			"stat.h": "c"
+		},
+		"git.ignoreLimitWarning": true
+	}
+}
