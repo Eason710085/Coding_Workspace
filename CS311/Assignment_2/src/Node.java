@@ -2,12 +2,12 @@
  * node part for CS 311 Assignment 2
  * Author Shunjie Wan
  */
-public class node {
+public class Node {
   int value;
-  node left;
-  node right;
+  Node left;
+  Node right;
 
-  public node(int value){
+  public Node(int value) {
     this.value = value;
     left = null;
     right = null;

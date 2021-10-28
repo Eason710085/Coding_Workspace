@@ -4,19 +4,20 @@
  */
 public class BST {
 
-  public static node root;
+  public static Node root;
 
   //constructor
   public BST() {
     root = null;
   }
 
+
   /**
    * @param value value to search
    * @return result
    */
-  public node search(int value) {
-    node currentNode = root;
+  public Node search(int value) {
+    Node currentNode = root;
     while (true) {
       if (currentNode == null || value == currentNode.value) {
         return currentNode;
@@ -34,9 +35,9 @@ public class BST {
    * @param value value to insert
    * @return inserted value
    */
-  public node insert(int value) {
-    node currentNode = root;
-    node newNode = new node(value);
+  public Node insert(int value) {
+    Node currentNode = root;
+    Node newNode = new Node(value);
     if (currentNode == null) {
       root = newNode;
       return newNode;
@@ -73,6 +74,20 @@ public class BST {
 //  public node remove (int value){
 //
 //  }
+
+  /**
+   * print the list of people
+   * @param root root
+   */
+  public void traversal(Node root){
+    if (root == null){
+      System.out.println("Empty BST.");
+    }else {
+      traversal(root.left);
+      System.out.println(root.value);
+      traversal(root.right);
+    }
+  }
 }
 
 
