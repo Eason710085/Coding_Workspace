@@ -15,7 +15,6 @@ public class ADTPeopleDB {
   //extract the birthday from personInfo
   public static String birthday = null;
 
-
   public static void main(String[] args) {
     personInfoFinder();
   }
@@ -37,48 +36,43 @@ public class ADTPeopleDB {
 
   /**
    * Method that extract personInfo from the file
+   * add all the data to the BST, generate the tree
+   * find the name and birthday
    */
   public static void personInfoFinder() {
     try {
       //count the number of people in the database
       peopleNumCounter();
-      //create the info array based on the number of people
-      String[] Name = new String[peopleNum];
-      String[] Birthday = new String[peopleNum];
-      String[] PeopleInfo = new String[peopleNum];
-
       File file = new File("src/People.txt");
-      Scanner scanner = new Scanner(file);
+      Scanner scan = new Scanner(file);
       for (int i = 0; i < peopleNum; i++) {
-        personInfo = scanner.nextLine();
-        PeopleInfo[i] = personInfo;
+        personInfo = scan.nextLine();
+        BST.insert(personInfo);
       }
-      System.out.println(peopleNum);
-      //sort the array by ASCII
-      //System.out.println(Arrays.toString(PeopleInfo));
-      Arrays.sort(PeopleInfo);
-      //separate the name and birthday, store them in Name array and Birthday Array
-      for (int i = 0; i < PeopleInfo.length; i++) {
-        name = PeopleInfo[i].substring(0, PeopleInfo[i].indexOf(","));
-        birthday = PeopleInfo[i].substring(name.length() + 1);
-        Name[i] = name;
-        Birthday[i] = birthday;
-      }
-      System.out.println("After sorting:");
-      System.out.println(Arrays.toString(PeopleInfo));
-      System.out.println(Arrays.toString(Name));
-      System.out.println(Arrays.toString(Birthday));
+      scan.close();
     } catch (FileNotFoundException e) {
       System.out.println("Failed to read the text file");
       e.printStackTrace();
     } catch (IOException e) {
       e.printStackTrace();
     }
+
   }
 
 
-  public static void addPerson() {
-
+  public static void addPerson() throws IOException {
+    System.out.println("Enter the Name and birthday in the format of: Name-MM/DD/YYYY");
+    System.out.println("Example: Jay Lee-03/13/2004 ");
+    String person;
+    Scanner scanner = new Scanner(System.in);
+    person = scanner.nextLine();
+    BufferedWriter writer = new BufferedWriter(new FileWriter("src/People.txt", true));
+    writer.write(person);
+    personInfoFinder();
+    writer.newLine();
+    writer.close();
+    scanner.close();
+    System.out.println("PersonInfo successfully added to ADT.");
   }
 
   public static void deletePerson() {
@@ -94,6 +88,5 @@ public class ADTPeopleDB {
   }
 
   public static void databaseTraversal() {
-
   }
 }

@@ -3,7 +3,15 @@ public class Person {
   String name;
   String birthday;
 
-  public Person(String name, String birthday) {
+  public String getPersonInfo() {
+    return personInfo;
+  }
+
+  public void setPersonInfo(String personInfo) {
+    this.personInfo = personInfo;
+  }
+
+  public Person(String personInfo, String name, String birthday) {
     this.name = name;
     this.birthday = birthday;
   }

@@ -16,7 +16,6 @@ public class mainProject {
 
     /**
      * Show the menu to user
-     *
      * @throws IOException
      */
     public static void showMenu() throws IOException {
@@ -62,7 +61,6 @@ public class mainProject {
 
     /**
      * add person to address book
-     *
      * @throws IOException
      */
     public static void addPerson() throws IOException {
@@ -85,12 +83,10 @@ public class mainProject {
         people.add(p);
         System.out.println("One person Added!");
         showMenu();
-        
     }
 
     /**
      * delete person from address book
-     *
      * @throws IOException
      */
     public static void deletePerson() throws IOException {
@@ -107,7 +103,6 @@ public class mainProject {
 
     /**
      * modify person from the address book
-     *
      * @throws IOException
      */
     public static void modifyPerson() throws IOException {
@@ -170,14 +165,13 @@ public class mainProject {
 
     /**
      * print one specify person
-     *
      * @throws IOException
      */
     public static void printOnePerson() throws IOException {
         System.out.println("Enter the telephone number of the person: ");
         String n = scan.nextLine();
         for (Person p : people) {
-            if (p.getTelephone().equals(n))  //get the person from arrayList
+            if(p.getTelephone().equals(n))  //get the person from arrayList
                 System.out.println("First_Name: " + p.getFirstName() + " Last_Name: " + p.getLastName());
             System.out.println("Stress Address: " + p.getStreetName());
             System.out.println("State: " + p.getState() + "  Zip: " + p.getZip());
@@ -188,16 +182,15 @@ public class mainProject {
 
     /**
      * print all person
-     *
      * @throws IOException
      */
     public static void printAllPerson() throws IOException {
-        for (Person p : people) {
+        for(Person p:people){
             //print all elements in the list
-            System.out.println("First_Name Last_Name: " + p.getFirstName() + " " + p.getLastName());
-            System.out.println("Street Address: " + p.getStreetName());
-            System.out.println("State,Zip: " + p.getState() + " " + p.getZip());
-            System.out.println("Telephone number: " + p.getTelephone());
+            System.out.println("First_Name Last_Name: "+p.getFirstName()+" "+p.getLastName());
+            System.out.println("Street Address: "+p.getStreetName());
+            System.out.println("State,Zip: "+p.getState()+" "+p.getZip());
+            System.out.println("Telephone number: "+p.getTelephone());
             System.out.println("      ");
         }
         showMenu();
@@ -205,22 +198,22 @@ public class mainProject {
 
     /**
      * write all person information to the address.txt file
-     *
      * @throws IOException
      */
     public static void writeToFile() throws IOException {
-        try {
+        try{
             File file = new File("address.txt");
             FileWriter writer = new FileWriter(file);// the file name is address.txt
-            for (Person p : people) {
-                String s = "First Name: " + p.getFirstName() + "\n" + "Last Name: " + p.getLastName()
-                        + "\n" + "Street Address: " + p.getStreetName() + "\n" + "State: " + p.getState() + "  Zip: " + p.getZip()
-                        + "\n" + "Telephone number: " + p.getTelephone() + "\n";
+            for(Person p: people) {
+                String s ="First Name: "+p.getFirstName()+"\n"+"Last Name: "+p.getLastName()
+                        +"\n"+"Street Address: "+p.getStreetName()+"\n"+"State: "+p.getState()+"  Zip: "+p.getZip()
+                        +"\n"+"Telephone number: "+p.getTelephone()+"\n";
                 writer.write(s + System.lineSeparator());
             }
             System.out.println("Successfully write to file.");
             writer.close();//close the file
-        } catch (Exception e) {
+        }
+        catch(Exception e){
             //catch the exception which maybe happen
             System.out.println("Error happens when writing to file");
         }
@@ -229,7 +222,6 @@ public class mainProject {
 
     /**
      * bonus option
-     *
      * @throws IOException
      */
     public static void bonusOption() throws IOException {
@@ -255,29 +247,29 @@ public class mainProject {
                 break;
             case 3:
                 //print all same street
-                for (Person p : people)
-                    if (people.equals(p) == false) {
+                for (Person p: people)
+                    if (people.equals(p)==false){
                         System.out.println(p.getStreetName());
                     }
                 break;
             case 4:
                 //print all same state
-                for (Person p : people)
-                    if (people.equals(p) == false) {
+                for (Person p: people)
+                    if (people.equals(p)==false){
                         System.out.println(p.getState());
                     }
                 break;
             case 5:
                 //print all same zip
-                for (Person p : people)
-                    if (people.equals(p) == false) {
+                for (Person p:people)
+                    if (people.equals(p)==false){
                         System.out.println(p.getZip());
                     }
                 break;
             case 6:
                 //print all same telephone number
-                for (Person p : people)
-                    if (people.equals(p) == false) {
+                for (Person p:people)
+                    if (people.equals(p)==false){
                         System.out.println(p.getTelephone());
                         break;
                     }

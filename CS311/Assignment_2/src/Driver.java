@@ -1,4 +1,7 @@
 
+import jdk.nashorn.internal.runtime.regexp.joni.constants.OPCode;
+
+import java.io.IOException;
 import java.util.Scanner;
 
 /**
@@ -6,45 +9,35 @@ import java.util.Scanner;
  * Author: Shunjie Wan
  */
 public class Driver {
-  public static void main(String[] args) {
+  public static void main(String[] args) throws IOException {
+    Option();
   }
 
-  public static void Option() {
+  public static void Option() throws IOException {
     System.out.println("Enter Y to run, N to quit");
     Scanner scanner = new Scanner(System.in);
     String option;
     option = scanner.nextLine();
     if (option.equals("Y")) {
-      int optNum;
+      System.out.println("-----------------------------------------------");
       System.out.println("Please enter your choice: (just the number)");
       System.out.println("1. List everyone in the database.");
       System.out.println("2. Enter new person to the database.");
       System.out.println("3. Search person born in a given month");
       System.out.println("4. Modified the current person in the database.");
-      Scanner scan = new Scanner(System.in);
-      optNum = scan.nextInt();
-      try {
-        switch (optNum) {
-          case 1:
-            System.out.println("Here is the people in the database.");
-            break;
-          case 2:
-            System.out.println("Enter this person's Name: ");
-            break;
-          case 3:
-            System.out.println("Enter the born month of which person you want to search:");
-            break;
-        }
-      } catch (Exception e) {
-        System.out.println("Please enter number only.");
-        e.printStackTrace();
+      int optNum = scanner.nextInt();
+      if (optNum == 1) {
+        ADTPeopleDB.personInfoFinder();
+        BST.printData();
+      } else if (optNum == 2) {
+        ADTPeopleDB.addPerson();
+      } else if (optNum == 3) {
+
+      } else if (optNum == 4) {
+
+      } else {
+
       }
-    } else if (option.equals("N")) {
-      System.out.println("You have exit the program.");
-      System.exit(0);
-    } else {
-      System.out.println("Please enter correct option.");
-      Option();
     }
   }
 }

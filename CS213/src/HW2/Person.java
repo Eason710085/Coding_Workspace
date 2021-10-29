@@ -1,7 +1,6 @@
 package HW2;
 
-/*
- * Homework assignment for CS 213
+/**Homework assignment for CS 213
  * Author Shunjie Wan
  */
 public class Person {
@@ -49,7 +48,6 @@ public class Person {
     public String getState() {
         return this.State;
     }
-
 
     public void setState(String state) {
         this.State = state;

@@ -2,13 +2,16 @@
  * node part for CS 311 Assignment 2
  * Author Shunjie Wan
  */
-public class Node {
-  int value;
-  Node left;
-  Node right;
+public class Node<T>{
+  T person;
+  Node<T> left, right;
 
-  public Node(int value) {
-    this.value = value;
+  /**
+   * constructor
+   * @param person pass name
+   */
+  public Node(T person) {
+    this.person = person;
     left = null;
     right = null;
   }
