@@ -1,6 +1,3 @@
-
-import jdk.nashorn.internal.runtime.regexp.joni.constants.OPCode;
-
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -14,30 +11,44 @@ public class Driver {
   }
 
   public static void Option() throws IOException {
-    System.out.println("Enter Y to run, N to quit");
-    Scanner scanner = new Scanner(System.in);
-    String option;
-    option = scanner.nextLine();
-    if (option.equals("Y")) {
-      System.out.println("-----------------------------------------------");
-      System.out.println("Please enter your choice: (just the number)");
-      System.out.println("1. List everyone in the database.");
-      System.out.println("2. Enter new person to the database.");
-      System.out.println("3. Search person born in a given month");
-      System.out.println("4. Modified the current person in the database.");
-      int optNum = scanner.nextInt();
-      if (optNum == 1) {
-        ADTPeopleDB.personInfoFinder();
+    Scanner sca = new Scanner(System.in);
+    System.out.println("-----------------------------------------------");
+    System.out.println("Please enter your choice: (just the number)");
+    System.out.println("0. Quit the program.");
+    System.out.println("1. List everyone in the database.");
+    System.out.println("2. Enter new person to the database.");
+    System.out.println("3. Delete a person from the database.");
+    System.out.println("4. Modified the current person in the database.");
+    System.out.println("5. Search a person by a given month.");
+    String optNum = sca.nextLine();
+    switch (optNum) {
+      case "0":
+        System.exit(0);
+      case "1":
+        ADTPeopleDB.BSTGenerator();
         BST.printData();
-      } else if (optNum == 2) {
+        Option();
+        break;
+      case "2":
         ADTPeopleDB.addPerson();
-      } else if (optNum == 3) {
-
-      } else if (optNum == 4) {
-
-      } else {
-
-      }
+        Option();
+        break;
+      case "3":
+        ADTPeopleDB.deletePerson();
+        Option();
+        break;
+      case "4":
+        ADTPeopleDB.modifyPerson();
+        Option();
+        break;
+      case "5":
+        ADTPeopleDB.searchPerson();
+        Option();
+        break;
+      default:
+        System.out.println("Please enter a correct number.");
+        Option();
+        break;
     }
   }
 }

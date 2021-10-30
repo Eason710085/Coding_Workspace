@@ -1,5 +1,5 @@
 import java.io.*;
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 public class ADTPeopleDB {
   //find the number of the people in the database, initialized to 0,
-  public static int peopleNum = 0;
+
   //find the person's information, including name and birthday
   public static String personInfo = null;
   //extract the name from personInfo
@@ -15,48 +15,26 @@ public class ADTPeopleDB {
   //extract the birthday from personInfo
   public static String birthday = null;
 
-  public static void main(String[] args) {
-    personInfoFinder();
-  }
-
-  /**
-   * Method that read the number of people in the people database
-   *
-   * @throws IOException IOException, file no found
-   */
-  public static void peopleNumCounter() throws IOException {
-    //read the file
-    BufferedReader reader = new BufferedReader(new FileReader("src/People.txt"));
-    while (reader.readLine() != null) {
-      //count the number of people
-      peopleNum++;
-    }
-    reader.close();
-  }
-
   /**
    * Method that extract personInfo from the file
    * add all the data to the BST, generate the tree
    * find the name and birthday
    */
-  public static void personInfoFinder() {
+  public static void BSTGenerator() {
     try {
-      //count the number of people in the database
-      peopleNumCounter();
-      File file = new File("src/People.txt");
-      Scanner scan = new Scanner(file);
-      for (int i = 0; i < peopleNum; i++) {
-        personInfo = scan.nextLine();
+      //read the file
+      BufferedReader reader = new BufferedReader(new FileReader("src/People.txt"));
+      while ((personInfo = reader.readLine()) != null) {
+        //count the number of people
         BST.insert(personInfo);
       }
-      scan.close();
+//    reader.close();
     } catch (FileNotFoundException e) {
       System.out.println("Failed to read the text file");
       e.printStackTrace();
     } catch (IOException e) {
       e.printStackTrace();
     }
-
   }
 
 
@@ -68,25 +46,77 @@ public class ADTPeopleDB {
     person = scanner.nextLine();
     BufferedWriter writer = new BufferedWriter(new FileWriter("src/People.txt", true));
     writer.write(person);
-    personInfoFinder();
+    BSTGenerator();
     writer.newLine();
     writer.close();
-    scanner.close();
     System.out.println("PersonInfo successfully added to ADT.");
   }
 
-  public static void deletePerson() {
 
+  public static void deletePerson() throws IOException {
+    BufferedReader reader = new BufferedReader(new FileReader("src/People.txt"));
+    ArrayList<String> buffer = new ArrayList<>();
+    while ((personInfo = reader.readLine()) != null) {
+      buffer.add(personInfo);
+    }
+    System.out.println("Enter the personInfo you want to delete from database.");
+    String deletion;
+    Scanner scan = new Scanner(System.in);
+    deletion = scan.nextLine();
+    if (buffer.contains(deletion)) {
+      buffer.remove(deletion);
+      System.out.println("Successfully deleted.");
+    } else {
+      System.out.println("There is no such person in the database");
+    }
+    BufferedWriter reWrite = new BufferedWriter(new FileWriter("src/People.txt"));
+    for (String s : buffer) {
+      reWrite.write(s);
+      reWrite.newLine();
+    }
+    reWrite.close();
+    BSTGenerator();
   }
 
-  public static void modifyPerson() {
-
+  public static void modifyPerson() throws IOException {
+    BufferedReader reader = new BufferedReader(new FileReader("src/People.txt"));
+    ArrayList<String> buffer = new ArrayList<>();
+    while ((personInfo = reader.readLine()) != null) {
+      buffer.add(personInfo);
+    }
+    System.out.println("Enter the personInfo to modify: ");
+    Scanner scanner = new Scanner(System.in);
+    String personModified = scanner.nextLine();
+    if (buffer.contains(personModified)) {
+      int index = buffer.indexOf(personModified);
+      System.out.println("Enter the updated information: ");
+      String modify = scanner.nextLine();
+      buffer.set(index, modify);
+      BufferedWriter reWrite = new BufferedWriter(new FileWriter("src/People.txt"));
+      for (String s : buffer) {
+        reWrite.write(s);
+        reWrite.newLine();
+      }
+      reWrite.close();
+      System.out.println("Information Update Successfully.");
+    } else {
+      System.out.println("There is no such person in the database");
+    }
   }
 
-  public static void searchPerson() {
-
-  }
-
-  public static void databaseTraversal() {
+  public static void searchPerson() throws IOException {
+    System.out.println("Search a person by month: ");
+    Scanner s = new Scanner(System.in);
+    String month = s.nextLine();
+    BufferedReader reader = new BufferedReader(new FileReader("src/People.txt"));
+    ArrayList<String> buffer = new ArrayList<>();
+    while ((personInfo = reader.readLine()) != null) {
+      buffer.add(personInfo);
+    }
+    for (String value : buffer) {
+      if (month.equals(value.substring(value.length() - 10, value.length() - 8))) {
+        System.out.println("This person is: " + value);
+      }
+    }
   }
 }

@@ -6,7 +6,7 @@ public class BST {
   //root
   public static Node<String> root;
 
-  public  BST() {
+  public BST() {
     root = null;
   }
 
@@ -38,6 +38,7 @@ public class BST {
   public static void printData() {
     dataTraversal(root);
   }
+
   public static void dataTraversal(Node<String> node) {
     if (node == null) {
       return;
@@ -48,12 +49,6 @@ public class BST {
     }
   }
 
-  public static void delete(String person){
-
-  }
-//  public static Node<String> deleteRec(String person, Node<String> node){
-//
-//  }
 }
 
 
