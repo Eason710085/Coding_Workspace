@@ -151,6 +151,7 @@ public class ADTPeopleDB {
     }
   }
 
+
   /**
    * Method that let user search the people by month
    *
